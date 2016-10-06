@@ -4,9 +4,10 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap Template</title>
+  <title>Bootstrap 模板</title>
   <link rel="stylesheet" href="http://libs.cncdn.cn/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="stylesheet" href="http://libs.cncdn.cn/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css">
+  <link rel="stylesheet" href="http://libs.cncdn.cn/bootswatch/3.3.7/paper/bootstrap.min.css">
+  <link rel="stylesheet" href="themes/main.css">
   <!--[if lt IE 9]>
   <script src="http://libs.cncdn.cn/html5shiv/3.7.3/html5shiv.min.js"></script>
   <script src="http://libs.cncdn.cn/respond.js/1.4.2/respond.min.js"></script>
@@ -16,7 +17,52 @@
   <![endif]-->
 </head>
 <body>
-<h1>你好，世界！</h1>
+<nav class="navbar navbar-default navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/" title="网站标题">网站标题</a>
+    </div>
+    <div class="collapse navbar-collapse" id="navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li><a href="/" title="菜单一" target="_blank">菜单一</a></li>
+        <li><a href="/" title="菜单二" target="_blank">菜单二</a></li>
+        <li><a href="/" title="菜单三" target="_blank">菜单三</a></li>
+        <li><a href="/" title="菜单四" target="_blank">菜单四</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3 col-md-4">
+      <div class="panel panel-default">
+        <div class="panel-heading">[模块一]标题</div>
+        <div class="panel-body">
+          [模块一]内容
+        </div>
+      </div>
+      <div class="panel panel-default">
+        <div class="panel-heading">[模块二]标题</div>
+        <div class="panel-body">
+          [模块二]内容
+        </div>
+      </div>
+    </div>
+    <div class="col-lg-9 col-md-8">
+      <div class="panel panel-default">
+        <div class="panel-heading">[模块三]标题</div>
+        <div class="panel-body">
+          [模块三]内容
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 <script src="http://libs.cncdn.cn/jquery/1.12.4/jquery.min.js"></script>
 <script src="http://libs.cncdn.cn/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
