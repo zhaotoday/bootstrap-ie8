@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^www.xmdx.cn$ [NC]
+RewriteRule ^(.*)$ http://www.xmdx.cn/$1 [L,R=301]
