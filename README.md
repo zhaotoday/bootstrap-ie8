@@ -9,5 +9,4 @@ BootStrap 官方主题：
 http://libs.cncdn.cn/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css
 
 Bootwatch：
-http://bootswatch.com/
-注意：Bootwatch 上的某些主题对 IE 8 支持较差。
+http://bootswatch.com/ （注意：Bootwatch 上的某些主题对 IE 8 支持较差。）
