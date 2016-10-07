@@ -8,5 +8,5 @@ IE8+、现代浏览器
 BootStrap 官方主题：  
 http://libs.cncdn.cn/twitter-bootstrap/3.3.7/css/bootstrap-theme.min.css
 
-Bootwatch：  
+Bootwatch 主题：  
 http://bootswatch.com/ （注意：Bootwatch 上的某些主题对 IE 8 支持较差。）
