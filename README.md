@@ -1,5 +1,6 @@
 ## 兼容性
-IE8+、现代浏览器
+- 现代浏览器
+- IE8+（含 IE8）
 
 ## 响应式兼容 IE8
 请参考：http://www.qianduan.org/post-375.html
